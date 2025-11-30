@@ -1,60 +1,71 @@
-# Tic-Tac-Toe
-# 🎮 Tic Tac Toe
+📟 Basic Calculator
 
-A simple and interactive **Tic Tac Toe** game built using **HTML, CSS, and JavaScript**.
-This project allows two players to compete in the classic 3x3 grid game with a clean UI, responsive design, and game‑win detection.
+A simple and user-friendly Basic Calculator built using HTML, CSS, and JavaScript.
+It performs standard arithmetic operations like Addition, Subtraction, Multiplication, Division, along with features like Clear (C) and Delete (DEL).
+Perfect for beginners learning DOM manipulation and JavaScript fundamentals.
 
 🚀 Features
 
-* 🎯 Two-player gameplay (X vs O)
-* 🧠 Automatic win and draw detection
-* 🔄 Reset game option
-* 💡 Highlights winning combination
-* 📱 Fully responsive layout
-* 🎨 Clean and simple UI
+✔️ Clean and responsive UI
+
+✔️ Supports basic arithmetic operations
+
+✔️ Real-time input display
+
+✔️ DEL button to remove last character
+
+✔️ AC/C button to clear full input
+
+✔️ Lightweight & beginner-friendly code
 
 🛠️ Technologies Used
 
-* **HTML** — Game layout structure
-* **CSS** — Styling and grid design
-* **JavaScript** — Game logic, turn handling, win checking
+HTML5 – Structure
 
-## 📂 Project Structure
+CSS3 – Styling & layout
 
-📁 tic-tac-toe
-│── index.html
-│── style.css
-│── script.js
+JavaScript – Calculator logic
+
+📂 Project Structure
+Calculator
+│── main.html
+│── main.css
+│── main.js
 └── README.md
 
-📦 How to Play
+⚙️ How to Use
 
-1. Open the `index.html` file in your browser.
-2. Player **X** starts the game.
-3. Click on any empty box to place your mark.
-4. Players take turns until one wins or the game ends in a draw.
-5. Click **Reset** to start a new game.
+Open the main.html file in any browser.
 
-🧠 Game Logic Summary
+Enter numbers using the buttons.
 
-* A 3x3 grid is stored as an array.
-* Players alternate turns (X → O → X → ...).
-* After every move, JavaScript checks:
+Click operators (+, -, ×, ÷) to perform calculations.
 
-  * Winning combinations
-  * Draw condition
-* If a winner is detected, the game stops and highlights the winning boxes.
+Use DEL to remove the last digit.
 
+Use C or AC to clear the entire screen.
 
-🤝 Contributing
+📜 Code Overview
 
-Contributions, pull requests, and feature suggestions are welcome!
-You can enhance the UI, add sound effects, or implement an AI (single‑player mode).
+The calculator uses DOM event listeners to detect button clicks and update the display accordingly.
+JavaScript handles expression evaluation using safe logic (without eval() if avoided).
 
+📌 Future Improvements (Optional)
 
-📜 License
+Add keyboard support
 
-This project is open-source and available under the **MIT License**.
+Add advanced operations (%, √, ^)
 
+Add dark/light mode
 
-⭐ If you like this project, feel free to star the repository!
+Improve UI with animations
+
+🙌 Contributing
+
+Contributions and suggestions are welcome!
+Feel free to open issues or submit pull requests.
+
+📄 License
+
+This project is open-source and available under the MIT License.
+
