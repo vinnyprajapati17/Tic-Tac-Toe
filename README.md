@@ -1,71 +1,76 @@
-📟 Basic Calculator
-
-A simple and user-friendly Basic Calculator built using HTML, CSS, and JavaScript.
-It performs standard arithmetic operations like Addition, Subtraction, Multiplication, Division, along with features like Clear (C) and Delete (DEL).
-Perfect for beginners learning DOM manipulation and JavaScript fundamentals.
+🧩 Tic Tac Toe — Simple & Interactive Game
+A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript. This project is perfect for beginners who want to learn DOM manipulation, event handling, and basic game logic in JavaScript.
 
 🚀 Features
 
-✔️ Clean and responsive UI
 
-✔️ Supports basic arithmetic operations
+✨ Clean and responsive user interface
 
-✔️ Real-time input display
 
-✔️ DEL button to remove last character
+🎮 Two-player gameplay (Player X vs Player O)
 
-✔️ AC/C button to clear full input
 
-✔️ Lightweight & beginner-friendly code
+🔄 Game reset and replay option
+
+
+🧠 Automatic win and draw detection
+
+
+📱 Works on all screen sizes
+
+
 
 🛠️ Technologies Used
 
-HTML5 – Structure
 
-CSS3 – Styling & layout
+HTML5 – Structure of the game
 
-JavaScript – Calculator logic
+
+CSS3 – Styling and layout
+
+
+JavaScript – Game logic and interactivity
+
+
 
 📂 Project Structure
-Calculator
-│── main.html
-│── main.css
-│── main.js
-└── README.md
+├── index.html
+├── style.css
+└── script.js
 
-⚙️ How to Use
 
-Open the main.html file in any browser.
+🎯 How to Play
 
-Enter numbers using the buttons.
 
-Click operators (+, -, ×, ÷) to perform calculations.
+Player X starts the game.
 
-Use DEL to remove the last digit.
 
-Use C or AC to clear the entire screen.
+Players take turns clicking on empty boxes.
 
-📜 Code Overview
 
-The calculator uses DOM event listeners to detect button clicks and update the display accordingly.
-JavaScript handles expression evaluation using safe logic (without eval() if avoided).
+The first player to align three marks (row, column, or diagonal) wins.
 
-📌 Future Improvements (Optional)
 
-Add keyboard support
+If all boxes are filled with no winner, the game ends in a draw.
 
-Add advanced operations (%, √, ^)
 
-Add dark/light mode
+Click Reset to play again.
 
-Improve UI with animations
+💡 Future Enhancements
 
-🙌 Contributing
 
-Contributions and suggestions are welcome!
-Feel free to open issues or submit pull requests.
+Add AI-based single-player mode
 
-📄 License
 
+Add animations and sound effects
+
+
+Scoreboard feature
+
+
+Dark/Light mode
+
+
+
+📜 License
 This project is open-source and available under the MIT License.
-
